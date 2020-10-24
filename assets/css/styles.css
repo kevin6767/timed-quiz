@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    height: 50px;
+    padding: 15px;
+    width: 100%;
+}
+
+.test-area {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    border: 3px solid green;
+    width: 100%;
+  }
+
+  .btn {
+    padding: 16px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+  }
+  .btn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #e7e7e7;
+  }
+.timer {
+  width: 75%;
+}
+.timer h1 {
+  float: right;
+}
+
+#startBtn {
+  height: 50px;
+  display: grid;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+}
+
+#details {
+  width: 100%;
+  height: 25%;
+  display: grid;
+  font-size: x-large;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  height: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: #242127;
+  color: #fff;
+  font-size: 1.5em;
+  line-height: 1.5;
+  list-style-type: none;
+}
+
+li:hover {
+  background-color: #9e9268;
+}
+
+#timeLeft {
+  font-size: 36px;
+  float: right;
+  padding: 5px;
+}
+
+label{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+}
+input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+}
