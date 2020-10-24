@@ -28,5 +28,10 @@ var testBank = [
         qTitle: "JavaScript is strongly typed language",
         picks: ["True", "False"],
         ans: "False"
+      },
+      {
+        qTitle: "Who is the NFL's leading rusher of all time",
+        picks: ["Frank Gore", "Ricky Watters","Derrick Henry", "Emmitt Smith"],
+        ans: "Emmitt Smith"
       }
     ];
